@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/main.17236bf1.js","mappings":"AAAAA,QAAQC,IAAI","sources":["index.js"],"sourcesContent":["console.log(\"Bienvenue dans mon projet React !\");\n"],"names":["console","log"],"sourceRoot":""}

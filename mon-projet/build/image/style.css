@@ -1,0 +1,142 @@
+
+
+/* body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ajout d'ombre */
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 40px;
+}
+
+nav a { 
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #f39c12;
+}
+
+/* Contact Formulaire  */
+#contact-form {
+  padding: 50px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Ombre pour le formulaire de contact */
+  border-radius: 10px; /* Coins arrondis */
+}
+
+#contact-form input, #contact-form textarea {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#contact-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f39c12;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+  background-color: #e67e22;
+}
+
+/* Skills Section partie icone  */
+#skills {
+  padding: 50px;
+  background-color: #e0e0e0;
+}
+
+#skills h1 {
+  text-align: center;
+}
+
+.skillsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centrer verticalement les icônes */
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill {
+  display: flex; /* Centrer horizontalement les icônes */
+  align-items: center;
+  transition: transform 0.3s ease; /* Animation de flottement */
+}
+
+.skill img {
+  width: 70px; /* Réduire la taille des icônes */
+  transition: transform 0.3s ease;
+}
+
+.skill:hover {
+  transform: translateY(-10px); /* Flottement au survol */
+}
+
+/* Projects Section */
+#projects {
+  padding: 50px;
+  background-color: #fff;
+}
+
+#projects h1 {
+  text-align: center; /* Centrer le titre */
+}
+
+#projects ul {
+  display: flex;
+  justify-content: center; /* Centrer les projets */
+  flex-wrap: wrap; /* Permettre aux projets de passer à la ligne */
+  gap: 20px; /* Espacement entre les projets */
+}
+
+#projects li {
+  list-style: none;
+  text-align: center;
+  background-color: #f0f0f0; /* Couleur de fond des blocs de projet */
+  border-radius: 10px; /* Coins arrondis */
+  padding: 20px; /* Espacement intérieur */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour les blocs */
+  transition: transform 0.3s ease; /* Animation de flottement */
+}
+
+#projects li:hover {
+  transform: translateY(-5px); /* Flottement au survol */
+}
+
+#projects img {
+  width: 100%; /* Ajuster l'image à la largeur du bloc */
+  max-width: 200px; /* Limite la largeur des images */
+  border-radius: 10px; /* Coins arrondis pour les images */
+}
